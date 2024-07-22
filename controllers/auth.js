@@ -11,8 +11,8 @@ const register = async (req, res) => {
       email: user.email,
       lastName: user.lastName,
       location: user.location,
+      token,
     },
-    token,
   });
 };
 
@@ -38,8 +38,8 @@ const login = async (req, res) => {
       email: user.email,
       lastName: user.lastName,
       location: user.location,
+      token,
     },
-    token,
   });
 };
 
