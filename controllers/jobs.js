@@ -1,7 +1,6 @@
 const Job = require("../models/Job");
 const { StatusCodes } = require("http-status-codes");
 const { BadRequestError, NotFoundError } = require("../errors");
-c;
 
 const getAllJobs = async (req, res) => {
   const { search, sort, jobType, status } = req.query;
